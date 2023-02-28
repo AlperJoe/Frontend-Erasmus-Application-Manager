@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>Student Page</title>
+    </head>
+    <body>
+        <header class="header"> 
+            <div class="logo-box">
+                <img src="images/bilkent_main_logo.png" alt="Logo" class="logo">
+                
+            </div>  
+            <div class="giant-navbar">
+               <button class="giant-button" id="GoTo" >Go To</button>
+            </div>
+            <div class="General-Info-Box">
+                <div class="text-box">
+                    <h2 class="txt">Student</h2>
+                    <label class="txt" for="Name">Name: <br> </label>
+                    <label class="txt"for="Department">Department: <br></label>
+                    <label class="txt"for="Country">Country: <br></label>
+                    <label class="txt"for="University">University: <br></label>
+                </div>
+            </div>   
+            <div class="information-box">
+                <div class="text-box">
+                    <label class="txt" for="ErasmusStatus">Erasmus Status:  <br> </label>
+                    <button type="button" class="btn btn-primary">Mail To</button>
+                </div>
+            </div>
+        </header>
+    </body>
+    
+</html>
+
+<script type="text/javascript">
+    document.getElementById("GoTo").onclick = function () {
+        location.href = "Navbar.html";
+    };
+</script>   

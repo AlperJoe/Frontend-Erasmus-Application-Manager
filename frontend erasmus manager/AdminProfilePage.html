@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <link rel="stylesheet" href="navbar.scss">
+
+        <title>Admin Page</title>
+    </head>
+    <body>
+        <header class="header"> 
+            <div class="logo-box">
+                <img src="images/bilkent_main_logo.png" alt="Logo" class="logo">
+                
+            </div>  
+            <div class="giant-navbar">
+                <label onclick="history.back()" for="navi-toggle" class="button" id="giant-white-ball"></label>
+            </div>
+            <label class="reminder ">IT IS THE BUTTON</label>
+            <header class="header"> 
+            <div class="logo-box">
+                <img src="images/bilkent_main_logo.png" alt="Logo" class="logo">
+                
+            </div>
+            <div class="text-box">
+                <h1 class="heading-primary">
+                    <span class="heading-primary-main justify content center">Admin Page</span>
+                </h1>
+                <a href="#" id = "EditCourse" class="btn btn-white btn-animated">Add/Remove Course</a>
+                <a href="#" id = "EditSyllabus" class="btn btn-white btn-animated">Add/Remove Syllabus</a>
+                <a href="#" id = "EditUser" class="btn btn-white btn-animated">Add/Remove User</a>
+                <a href="#" id = "EditUniversity" class="btn btn-white btn-animated">Add/Remove University</a>
+            </div>      
+        </header>
+        </header>
+    </body>
+</html>
+
+<script type="text/javascript">
+    document.getElementById("giant-white-ball").onclick = function () {
+        location.href = "adminnavbar.html";
+    };
+    document.getElementById("EditCourse").onclick = function () {
+        location.href = "EditCourse.html";
+    };
+    document.getElementById("EditSyllabus").onclick = function () {
+        location.href = "EditSyllabus.html";
+    };
+    document.getElementById("EditUser").onclick = function () {
+        location.href = "EditUser.html";
+    };
+    document.getElementById("EditUniversity").onclick = function () {
+        location.href = "EditUniversity.html";
+    };
+</script>   

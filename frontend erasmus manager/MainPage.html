@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>Main Page</title>
+    </head>
+    <body>
+        <header class="header"> 
+            <div class="logo-box">
+                <img src="images/bilkent_main_logo.png" alt="Logo" class="logo">
+                
+            </div>
+            <div class="text-box">
+                <h1 class="heading-primary">
+                    <span class="heading-primary-main justify content center">Erasmus Manager</span>
+                    <span class="heading-primary-sub justify content center">Are You A Bilkent Student/Coordinator? </span>
+                </h1>
+                <a href="#" id = "StudentLoginPage" class="btn btn-white btn-animated">I am a Student</a>
+                <a href="#" id = "CoordinatorLoginPage" class="btn btn-white btn-animated">I am a Coordinator</a>
+            </div>      
+        </header>
+    </body>
+    
+</html>
+
+<script type="text/javascript">
+    document.getElementById("StudentLoginPage").onclick = function () {
+        location.href = "StudentLoginPage.html";
+    };
+    document.getElementById("CoordinatorLoginPage").onclick = function () {
+        location.href = "CoordinatorLoginPage.html";
+    };
+</script>   
+
+
